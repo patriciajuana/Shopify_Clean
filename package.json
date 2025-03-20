@@ -1,0 +1,27 @@
+{
+  "name": "patrickstoretheme",
+  "version": "1.0.0",
+  "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite build --watch & chokidar '**/*.liquid'",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-patriciajuana.github.com:patriciajuana/Shopify_Clean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.86.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "vite": "^6.2.2",
+    "vite-plugin-sass": "^0.1.0"
+  }
+}
